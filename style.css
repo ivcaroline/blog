@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #eb97db 0%, #ce82ad 100%);
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
@@ -147,7 +147,7 @@ section h2 {
 
 section h2 i {
     margin-right: 10px;
-    color: #ffd700;
+    color: #db1276;
 }
 
 /* Cards de informação */
@@ -176,7 +176,7 @@ section h2 i {
 
 .info-card i {
     font-size: 2em;
-    color: #ffd700;
+    color: #c937d1;
     margin-bottom: 10px;
     display: block;
 }
@@ -208,7 +208,7 @@ section h2 i {
 
 .hobby-item i {
     font-size: 2.5em;
-    color: #ffd700;
+    color: #c554c7;
     margin-bottom: 10px;
     display: block;
     transition: transform 0.3s ease;
@@ -249,15 +249,15 @@ section h2 i {
 }
 
 .social-btn.discord {
-    background: linear-gradient(45deg, #7289da, #5865f2);
+    background: linear-gradient(45deg, #c05de1, #5865f2);
 }
 
 .social-btn.github {
-    background: linear-gradient(45deg, #333, #24292e);
+    background: linear-gradient(45deg, #d54dbc, #e763b2);
 }
 
 .social-btn.youtube {
-    background: linear-gradient(45deg, #ff0000, #cc0000);
+    background: linear-gradient(45deg, #d855c0, #dd5f9a);
 }
 
 .social-btn:hover {
@@ -289,7 +289,7 @@ section h2 i {
 }
 
 .quote-box i {
-    color: #ffd700;
+    color: #da1fa2;
     font-size: 1.5em;
 }
 
@@ -301,7 +301,7 @@ section h2 i {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: linear-gradient(45deg, #ffd700, #ffed4e);
+    background: linear-gradient(45deg, #b70c6a, #d24bb2);
     border: none;
     color: #333;
     font-size: 1.5em;
@@ -339,18 +339,18 @@ section h2 i {
 
 .theme-neon .nome-principal {
     color: #00ffff;
-    text-shadow: 0 0 10px #00ffff;
+    text-shadow: 0 0 10px #b7269d;
 }
 
 .theme-neon .info-card,
 .theme-neon .hobby-item {
-    background: rgba(255, 0, 255, 0.1);
-    border: 1px solid rgba(255, 0, 255, 0.3);
+    background: rgba(193, 16, 136, 0.1);
+    border: 1px solid rgba(202, 29, 130, 0.3);
 }
 
 .theme-neon .info-card:hover,
 .theme-neon .hobby-item:hover {
-    box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+    box-shadow: 0 0 15px rgba(185, 14, 111, 0.5);
 }
 
 /* Responsividade */
