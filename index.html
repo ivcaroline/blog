@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cartão Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+ 
+<body>
+    <!-- Fundo animado com formas geométricas -->
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+ 
+    <!-- Container principal -->
+    <div class="container">
+ 
+        <!-- Seção do Header com foto e nome -->
+        <header class="header">
+            <div class="profile-photo">
+                <img src="mídia.png" alt="Minha Foto" id="foto-perfil">
+            </div>
+            <h1 class="nome-principal">Vitória Astolpho</h1>
+            <p class="apelido">@Vivi</p>
+        </header>
+ 
+        <!-- Seção Sobre Mim -->
+        <section class="sobre-mim">
+            <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>16 anos</span>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Descalvado</span>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2° Ano - Ensino Médio</span>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Seção Interesses -->
+        <section class="interesses">
+            <h2><i class="fas fa-heart"></i> Meus Interesses</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-item">
+                    <i class="fas fa-music"></i>
+                    <span>Música</span>
+                    <span class="tooltip-text">
+                        Come as you are, Exagerado, what i've done. <br> 
+                    </span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-code"></i>
+                    <span>Programação</span>
+                    <span class="tooltip-text">
+                        Programação desktop e web com html, css e javascript <br>
+                        backend com python e banco de dados sql serve
+                    </span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-camera"></i>
+                    <span>Fotografia</span>
+                    <span class="tooltip-text">
+                        Foto de paisagem, coisas fofas, foto do dia a dia, pessoas importante <br>
+                    </span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-book"></i>
+                    <span>Leitura</span>
+                    <span class="tooltip-text">
+                        livros de romance(Acotar, melhor do que nos filmes, a hipotese do amor) e psicologia/psicanalise (o livro da psicologia)<br>
+                    </span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-cut"></i>
+                    <span>Bordado</span>
+                    <span class="tooltip-text">
+                        Bordados no geral, chaveiros, ponto crus, tapete e crochê <br>
+                    </span>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Seção Redes Sociais -->
+        <section class="redes-sociais">
+            <h2><i class="fas fa-share-alt"></i> Me encontre</h2>
+            <div class="social-buttons">
+                <a href="#" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="social-btn discord">
+                    <i class="fab fa-discord"></i>
+                    <span>Discord</span>
+                </a>
+                <a href="#" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="social-btn youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </section>
+ 
+        <!-- Footer entre com sua frase preferida -->
+        <footer class="footer">
+            <div class="quote-box">
+                <i class="fas fa-quote-left"></i>
+                <p class="quote">💕 Nenhum espaço de tempo com você seria suficiente comecemos com o para sempre.</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+        </footer>
+    </div>
+ 
+    <!-- Botão flutuante para mudar tema -->
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-pallette"></i>
+    </button>
+    <!-- Link para o arquivo JavaScript (sempre no final do body) -->
+    <script src="script.js"></script>
+ 
+</body>
+ 
+</html>
